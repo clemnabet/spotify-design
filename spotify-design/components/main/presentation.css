@@ -1,0 +1,24 @@
+.page-principale-title {
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 160px;
+	text-align: justify;
+	height: 100px;
+	margin-left: 150px;
+	margin-top: 80px;
+	padding-bottom: 30px;
+}
+
+.description {
+	text-align: justify;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 20px;
+	font-weight: 300;
+	color: white;
+	width: 32%;
+	height: 30px;
+	margin-left: 150px;
+	padding-top: 30px;
+	letter-spacing: 1px;
+
+}

@@ -1,0 +1,209 @@
+.container{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+/*a{
+	color: black;
+	font-weight: bold;
+}*/
+
+h1{
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	/*margin-bottom: 30px;*/
+
+}
+
+.photo{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.image{
+	background-image: url(imagesbis/bleu.jpg);
+	background-size: 100%;
+	width: 625px;
+	height: 300px;
+}
+
+.image:hover{
+	background-size: 110%;
+	transition: 0.5s;
+}
+
+.imageb{
+	background-image: url(imagesbis/vert.jpg);
+	background-size: 100%;
+	width: 625px;
+	height: 300px;
+}
+
+.imageb:hover{
+	background-size: 110%;
+	transition: 0.5s;
+  }
+
+.yolo{
+	background-image: url(imagesbis/trans.jpg);
+	background-size: 100%;
+	width: 625px;
+	height: 300px;
+}
+
+.yolo:hover{
+	background-size: 110%;
+	transition: 0.5s;
+  }
+
+.imaged{
+	background-image: url(imagesbis/orange.jpg);
+	background-size: 100%;
+	width: 625px;
+	height: 300px;
+}
+
+.imaged:hover{
+	background-size: 110%;
+	transition: 0.5s;
+  }
+#london:hover{
+	color: green;
+	transition: 0,2;
+
+}
+#vert:hover{
+	color: green;
+	transition: 0,2;
+
+}
+
+/*#london:hover .image{
+
+	background-size: 110%;
+	transition: 0.5s;
+
+}
+
+.image:hover #london{
+	color: green;
+	transition: 0,2;*/
+/*}*/
+
+#photo1{
+	padding-right: 20px;
+}
+
+#photo1:hover #london {
+	color: green;
+	transition: 0,2;
+}
+
+#photo1:hover #londonbis {
+	color: green;
+	transition: 0,2;
+}
+
+#photo1:hover .image {
+	background-size: 110%;
+	transition: 0.5s;
+}
+
+#photo2:hover #vert {
+	color: green;
+	transition: 0,2;
+}
+
+#photo2:hover .imageb {
+	background-size: 110%;
+	transition: 0.5s;
+ }
+
+#photo1:hover .yolo {
+	background-size: 110%;
+	transition: 0.5s;
+}
+
+#photo2:hover .imaged {
+	background-size: 110%;
+	transition: 0.5s;
+}
+
+.EventDate-day{
+	width: 43px;
+	height: 30px;
+	padding: 15px 0px 12px;
+	font-size: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: gray;
+	font-weight: bold;
+}
+
+.EventDate-dateBottom{
+	width: 53px;
+	height: 37px;
+	padding: 5px 0px 12px;
+	font-size: 12px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: gray;
+}
+
+#london{
+	width: 455px;
+	margin-left: 15%;
+	margin-top: -95px;
+	padding-bottom: 30px;
+}
+
+#londonbis{
+	width: 455px;
+	margin-left: 15%;
+	margin-top: -95px;
+	padding-bottom: 30px;
+}
+
+#vert{
+	width: 405px;
+	margin-left: 15%;
+	margin-top: -95px;
+	padding-bottom: 55px;
+}
+/*
+.location{
+	padding-left: 14%;
+	padding-top: -100px;
+}*/
+
+#EventLocation{
+	color: #909496;
+	font-size: 12px;
+	/*margin-left: 19%;
+	margin-top: -60px;*/
+}
+
+.location{
+	padding-top: 5px;
+}
+
+.gps{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 120px;
+	margin-left: 90px;
+	margin-top: -40px;
+}
+
+.gps-sweden{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 150px;
+	margin-left: 90px;
+	margin-top: -40px;
+}

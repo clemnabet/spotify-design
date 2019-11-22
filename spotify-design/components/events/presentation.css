@@ -1,0 +1,95 @@
+.page-event-title {
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 160px;
+	text-align: justify;
+	height: 100px;
+	margin-left: 130px;
+	margin-top: 50px;
+	padding-bottom: 80px;
+}
+
+.header{
+	background: #8D2732;
+	height: 700px;
+	position: relative;
+}
+
+.image-rectangle{
+	height: 200px;
+	width: 80%;
+	background-image: url(imagesbis/writers.jpg);
+	background-size: 100%;
+	background-position: right;
+	margin: -300px 10% 0px 10%;
+	padding-bottom: 300px;
+	position: absolute;
+
+}
+
+.rectangle:hover .image-rectangle{
+	background-size: 105%;
+	transition: 0.5s;
+}
+ .rectangle{
+ 	padding-bottom: 20%;
+ }
+
+.main-event{
+	padding-left: 10%;
+	margin-top: -70px;
+}
+
+#main{
+	width: 80px;
+	height: 30px;
+	font-size: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: gray;
+	font-weight: bold;
+}
+
+#main-bottom{
+	width: 80px;
+	height: 37px;
+	font-size: 12px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: gray;
+}
+
+h1{
+	color: black;
+	font-weight: bold;
+	font-size: 30px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#EventLocation-ny{
+	color: #909496;
+	font-size: 12px;
+}
+
+#silicon{
+	width: 80%;
+	font-size: 32px;
+	padding-left: 100px;
+	margin-top: -95px;
+	padding-bottom: 55px;
+}
+
+.cont-event:hover #silicon{
+	color: green;
+	transition: 0,2;
+}
+
+.location-ny{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	width: 150px;
+	margin-left: 7%;
+	margin-top: -70px;
+}
+
+

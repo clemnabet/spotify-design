@@ -1,0 +1,12 @@
+@import url(components/events/bandeau.css);
+@import url(components/events/presentation.css);
+@import url(components/events/description.css);
+@import url(components/events/bottom.css);
+@import url(components/events/footer.css);
+
+
+
+body{
+	width: 100%;
+	margin: 0px;
+}

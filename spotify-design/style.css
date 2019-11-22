@@ -1,0 +1,40 @@
+@import url(components/main/bandeau.css);
+@import url(components/main/presentation.css);
+@import url(components/main/menu2.css);
+@import url(components/main/articles/article1.css);
+@import url(components/main/articles/article2.css);
+@import url(components/main/articles/article3.css);
+@import url(components/main/articles/article4.css);
+@import url(components/main/articles/article5.css);
+@import url(components/main/articles/article6.css);
+@import url(components/main/articles/article7.css);
+@import url(components/main/articles/article8.css);
+@import url(components/main/bottom.css);
+@import url(components/main/footer.css);
+
+
+@font-face{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+}
+
+body{
+	width: 100%;
+	margin: 0px
+}
+
+.header{
+	background: linear-gradient(99.15961971425418deg, rgba(224, 85, 169,1) 29.655237268518512%,rgba(235, 183, 223,1) 97.5017361111111%);
+	height: 600px;
+}
+
+.menu2_articles{
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 90%;
+	padding-right: 5%;
+	padding-left: 5%;
+
+}

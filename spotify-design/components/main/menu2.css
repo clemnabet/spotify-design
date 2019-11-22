@@ -1,0 +1,26 @@
+.menu2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	border-bottom: 1px solid grey;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.menu2 a{
+	font-family: font-family: 'Open Sans', sans-serif;
+	color:grey;
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 12px;
+}
+
+.menu2 a:hover{
+	color: rgb(0,0,0);
+	font-weight: bold;
+}
+
+#all{
+	color: black;
+	border-bottom: 2px solid green;
+}

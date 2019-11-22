@@ -1,0 +1,16 @@
+@import url(components/teams/bandeau.css);
+@import url(components/teams/presentation.css);
+@import url(components/teams/articles.css);
+@import url(components/teams/bottom.css);
+@import url(components/teams/footer.css);
+
+@font-face{
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+}
+
+body{
+	width: 100%;
+	margin: 0px
+}

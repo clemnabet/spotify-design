@@ -1,0 +1,151 @@
+.article {
+	text-align: justify;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-top: 80px;
+	font-size: 32px;
+	color: black;
+	width: 80%;
+	margin-left: 150px;
+	padding-top: 0px;
+	padding-bottom: 200px;
+}
+
+h4{
+	font-family: Open Sans, sans-serif, bold;
+	font-size: 56px;
+	text-decoration: none;
+	color: black;
+	font-weight: 900;
+}
+
+.text-ux{font-family: Open Sans, sans-serif, bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: grey;
+	font-weight: 400;
+	width: 400px;
+	height: 50px;
+	margin-left: 575px;
+	margin-top: -175px;
+}
+
+.photo1, .photo-design, .photo-ux, .photo-data, .photo-user, .photo-operations {
+	padding-bottom: 200px;
+	position: absolute;
+	margin-left: -50px;
+	margin-top: -60px;
+}
+
+.fleche {
+	padding-bottom: 200px;
+	position: absolute;
+	margin-left: 990px;
+	margin-top: 40px;
+}
+
+.fleche1 {
+	padding-bottom: 200px;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 70px;
+}
+
+
+
+.bloc, .bloc2, .bloc3, .bloc4, .bloc5, .bloc6 {
+	display: block;
+	background-color: #ff6d00;
+	width: 1080px;
+	height: 480px;
+	margin-left: 200px;
+	padding-bottom: 130px;
+	padding-top: -30px;
+	position: relative;
+}
+
+.design, .data-science, .user-research, .design-operation{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: -100px;
+	margin-bottom: 225px;
+	margin-left: -235px;
+}
+
+.ux-writing{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: -100px;
+	margin-bottom: 225px;
+	margin-left: -235px;
+}
+
+.text-uxw{
+	font-family: Open Sans, sans-serif, bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: grey;
+	font-weight: 400;
+	width: 600px;
+	height: 50px;
+	margin-left: 375px;
+	margin-top: -175px;
+}
+
+.design-prototyping{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: -100px;
+	margin-bottom: 225px;
+	margin-left: -235px;
+}
+
+/* BUTTON */
+
+.join-us {
+  background-color: black ;
+  border-radius: 100px;
+  padding:8px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-color: black;
+}
+
+.join-us:hover {
+	background: white;
+}
+
+.join-us:hover a{
+	color: black ;	
+}
+
+.email-us{
+	background-color: black;
+	color: white;
+	text-align: center;
+  	display: inline-block;
+  	font-size: 16px;
+  	border-color: black;
+  	border-radius: 100px;
+  	padding:8px 20px;
+}
+
+.email-us:hover a{
+	color: black;
+}
+
+.email-us:hover {
+	background-color: white;
+}
+
+.titre-bouton{
+	padding-top: 100px;
+	width: 40%;
+}
+
